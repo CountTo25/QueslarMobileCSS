@@ -190,10 +190,23 @@
     mat-grid-list div mat-grid-tile:nth-child(5){
         width: 100vw !important;
         z-index: 100;
-        height: 400px !important;
+        height: 4rem !important;
         left: 0px !important;
         top: 0px !important;
         order: 5;
+    }
+    
+    
+    app-equipment .d-flex {
+        display: block !important;
+        white-space: nowrap;
+        height: 2rem !important;
+        overflow-x: scroll;
+    }
+    
+    app-equipment .d-flex div {
+        display: inline-block;
+        width: max-content;
     }
     /* END */
     /* Menu */
