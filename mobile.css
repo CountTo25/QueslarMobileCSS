@@ -139,6 +139,7 @@
     app-partner > div .component, app-partner > div .partner-stats-container {
         display: flex !important;
         flex-direction: column !important;
+        height: 120% !important;
     }
     app-partner > div .component .partner-skills {
         order: 2;
@@ -166,6 +167,24 @@
     app-partner .partner-stats-block:last-of-type {
         padding-bottom: 50px;
     }
+    
+    app-enchanting .crafting-container {
+        padding-bottom: 50px;
+    }
+     
+    app-enchanting .crafting-container div:nth-of-type(2) {
+        width: 100% !important;
+    }
+    
+     app-craft .crafting-container {
+        padding-bottom: 50px;
+    }
+     
+    app-craft .crafting-container div {
+        width: 100% !important;
+    }
+    
+    
     /*END*/
     /* Equpiment slots*/
     mat-grid-list div mat-grid-tile:nth-child(5){
