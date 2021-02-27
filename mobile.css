@@ -87,6 +87,19 @@
        top: 0px !important;
         order: 3;
     }
+    
+    mat-grid-list div mat-grid-tile:nth-child(4) .actions-grid-container {
+        display: flex !important;  
+        flex-direction: column;
+    }
+    mat-grid-list div mat-grid-tile:nth-child(4) .actions-grid-container .combat-log-button {
+        position: relative !important;
+        top: 0px !important;
+        left: 0px !important;
+        padding-bottom: 5px;
+        width: 100vw;
+        
+    }
     /*END*/
     /* Equpiment slots*/
     mat-grid-list div mat-grid-tile:nth-child(5){
