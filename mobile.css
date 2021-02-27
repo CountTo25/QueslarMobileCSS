@@ -1,0 +1,174 @@
+@media (max-width: 768px) {
+    app-upper-menu {
+        overflow-x: auto
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .mat-drawer-content {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    mat-toolbar {
+        overflow-x: scroll;
+        width: 100vw !important;
+        min-width: 100vw !important;
+    }
+    
+    mat-toolbar div {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    mat-grid-tile {
+        position: relative !important;
+    }
+    
+    mat-grid-list > div {
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+    /* Main menu */
+    mat-grid-list div mat-grid-tile:nth-child(1){
+       width: 100vw !important; 
+       z-index: 100;
+       height: 140px !important;
+       overflow-y: scroll;
+        order: 1;
+    }
+    /*END*/
+    
+    /* RESOURCES */
+    
+    mat-grid-list div mat-grid-tile:nth-child(2){
+       width: 100vw !important; 
+       z-index: 100;
+       height: 200px !important;
+       left: 0px !important;
+       order: 4;
+    }
+    
+    mat-grid-list div mat-grid-tile:nth-child(2) .inventory-row div.d-flex{
+        display: inline-block !important;
+        overflow: hidden;
+    }
+    
+    .inventory-row .ml-4{
+            margin-left: 0px !important;
+    }
+    
+    /*END*/
+    
+    /* News */
+
+    mat-grid-list div mat-grid-tile:nth-child(3){
+       width: 100vw !important; 
+       z-index: 100;
+       height: 0px !important;
+       left: 0px !important;
+       top: 0px !important;
+    }
+    
+    /*END*/
+    /* Main view */
+    
+    mat-grid-list div mat-grid-tile:nth-child(4){
+       width: 100vw !important; 
+       z-index: 100;
+       height: 400px !important;
+       left: 0px !important;
+       top: 0px !important;
+        order: 3;
+    }
+    /*END*/
+    /* Equpiment slots*/
+    mat-grid-list div mat-grid-tile:nth-child(5){
+        width: 100vw !important;
+        z-index: 100;
+        height: 400px !important;
+        left: 0px !important;
+        top: 0px !important;
+        order: 5;
+    }
+    /* END */
+    /* Menu */
+    mat-grid-list div mat-grid-tile:nth-child(6){
+        width: 100vw !important;
+        z-index: 100;
+        height: 4rem !important;
+        left: 0px !important;
+        top: 0px !important;
+        border: 1px solid red;
+        order: 2;
+    }
+    
+    mat-grid-list div mat-grid-tile:nth-child(6) app-menu .window div.d-flex {
+        display: block !important;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    
+    mat-grid-list div mat-grid-tile:nth-child(6) app-menu .window div.d-flex .ng-star-inserted {
+        width: auto;
+        margin: 1px;
+        display: inline-block;
+    }
+    
+    /* END OF MENU */
+    
+    /* RECENT DROPS */
+    mat-grid-list div mat-grid-tile:nth-child(7){
+        width: 100vw !important;
+        z-index: 100;
+        height: 400px !important;
+        left: 0px !important;
+        top: 0px !important;
+        order: 6;
+        
+    }
+    /* END */
+    
+    /* CHAT CHANNELS */
+    mat-grid-list div mat-grid-tile:nth-child(8){
+        width: 100vw !important;
+        z-index: 100;
+        height: 400px !important;
+        left: 0px !important;
+        top: 0px !important;
+        order: 7;
+    }
+    /* END */
+    
+    /* CHAT */
+    mat-grid-list div mat-grid-tile:nth-child(9){
+        width: 90vw !important;
+        z-index: 100;
+        height: 400px !important;
+        left: 10vw !important;
+        top: 0px !important;
+        order: 8;
+    }
+    /* END */
+    /* TRACKER */
+    mat-grid-list div mat-grid-tile:nth-child(10){
+        width: 100vw !important;
+        z-index: 100;
+        height: 400px !important;
+        left: 0px !important;
+        top: 0px !important;
+        order: 9;
+    }
+    /* END */
+    
+    
+    
+
+}
+
