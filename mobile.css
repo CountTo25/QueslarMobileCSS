@@ -100,6 +100,72 @@
         width: 100vw;
         
     }
+    
+    app-quests {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    
+    app-quests table {
+        overflow-y: scroll;
+    }
+    
+    app-quests tr td:nth-of-type(2), app-quests th:nth-of-type(2){
+        padding-left: 24px !important;
+    }
+    
+    app-quests tr th:first-of-type {
+     display: none;   
+    }
+    
+    app-quests tr td:first-of-type {
+        display: none;
+    }
+    
+    app-actions-pets > div > div > div.d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    app-actions-pets > div > div > div.d-flex div {
+        width: 100% !important;
+    }
+    
+    app-actions-pets > div > div > div.d-flex {
+        padding-bottom: 50px;
+    }
+    
+    app-partner > div .component, app-partner > div .partner-stats-container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    app-partner > div .component .partner-skills {
+        order: 2;
+        padding-bottom: 50px;
+    }
+    app-partner > div .partner-action-container{
+        order: 1;
+    }
+    app-partner > div .component > div {
+        width: 100% !important;
+    }
+    app-partner > div .partner-action-container > div {
+        width: 100% !important;
+    }
+    
+    app-partner .partner-stats-container {
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+    app-partner .partner-stats-block {
+        width: 100% !important;
+    }
+    
+    app-partner .partner-stats-block:last-of-type {
+        padding-bottom: 50px;
+    }
     /*END*/
     /* Equpiment slots*/
     mat-grid-list div mat-grid-tile:nth-child(5){
